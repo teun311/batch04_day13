@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/CSS.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+       <div class="container">
+           <a href="" class="navbar-brand">Logo</a>
+           <button type="button"class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="myMenu">
+               <ul class="navbar-nav ml-auto">
+                   <li><a href="" class="nav-link text-danger">Home</a></li>
+                   <li><a href="" class="nav-link">About</a></li>
+                   <li><a href="" class="nav-link">Contact</a></li>
+                   <li><a href="#sign" class="nav-link" data-toggle="modal">Sign In</a></li>
+                   <li><a href="#modal" class="nav-link" data-toggle="modal"data-target="#modal">Register</a></li>
+               </ul>
+           </div>
+       </div>
+    </nav>
+
+    <div class=" modal fade" data-backdrop="static"data-keyboard="false" id="modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Registration From</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body">
+                    <from action="">
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label">Full Name</label>
+                            <div class="col-md-8">
+                                <input type="text" class=form-control placeholder="full name" id="name" ></input>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="mail" class="col-md-4 col-form-label">Email</label>
+                            <div class="col-md-8">
+                                <input type="email" class=form-control required placeholder="Email" id="mail" ></input>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phone" class="col-md-4 col-form-label">Phone Number</label>
+                            <div class="col-md-8">
+                                <input type="number" class=form-control placeholder="Phone Number" id="phone" ></input>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="pass" class="col-md-4 col-form-label">Password</label>
+                            <div class="col-md-8">
+                                <input type="password" placeholder="Password" class=form-control  id="pass" ></input>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-md-4 col-form-label">Address</label>
+                            <div class="col-md-8">
+                                <textarea class="form-control" placeholder="Address" id="add" cols="" rows="3"></textarea>
+                            </div>
+                        </div>
+<!--                        <div class="form-group row">-->
+<!--                            <label class="col-md-4"></label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="button" class="btn btn-outline-warning btn-block" value="submit">-->
+<!--                            </div>-->
+
+<!--                        </div>-->
+
+                    </from>
+                </div>
+                <div class="modal-footer" >
+                    <button type="button" class="btn-outline-success">Submit</button>
+                    <button type="button" class="btn-outline-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" data-backdrop="static"data-keyboard="false" id="sign">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Sign in From</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form >
+                        <div class="form-group">
+                            <label for="email" class="col-md-4 col-form-label">Email</label>
+                            <div class="col-md-8">
+                                <input type="email" class="form-control "id="email">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="passw" class="col-md-4 col-form-label">Password</label>
+                            <div class="col-md-8">
+                                <input type="password" class="form-control "id="passw">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success" >Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--   home(Arif) tab-->
+
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card card-body" >
+                        <ul class="nav nav-tabs">
+                            <li><a href="#arif"class="nav-link active" data-toggle="tab">Arif</a></li>
+                            <li><a href="#shila"class="nav-link" data-toggle="tab">Shila</a></li>
+                            <li><a href="#mamun"class="nav-link" data-toggle="tab">Mamun</a></li>
+                            <li><a href="#sudipto"class="nav-link" data-toggle="tab">Sudipto</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="arif">
+                                <p class="text-justify">দীর্ঘ ৮১ দিন রাজধানীর এভারকেয়ার হাসপাতালে চিকিৎসাধীন থাকার পর বাসায় ফিরছেন বিএনপি চেয়ারপারসন খালেদা জিয়া। গত ১৩ নভেম্বর</p>
+                            </div>
+                            <div class="tab-pane fade" id="shila">
+                                <p class="text-justify">মনোনয়ন প্রত্যাহারের জন্য রেজাউলের ওপর চট্টগ্রাম-১৫ (সাতকানিয়া-লোহাগাড়া) আসনের আওয়ামী লীগের সাংসদ আবু রেজা মুহাম্মদ</p>
+                            </div>
+                            <div class="tab-pane fade " id="mamun">
+                                <p class="text-justify">কখনো কখনো ব্যক্তিগত কাজের চাপে আশপাশে ঘটে যাওয়া অনেক গুরুত্বপূর্ণ ঘটনাও কেমনভাবে যেন চোখ এড়িয়ে যায়। এভাবেই চাকরিতে প্রবে</p>
+                            </div>
+                            <div class="tab-pane fade" id="sudipto">
+                                <p class="text-justify">নিহত রাজনা বেগম (২০) উপজেলার আলীপুর গ্রামের জাকারিয়া আহমেদের (৩০) স্ত্রী। পাঁচ মাস আগে এ দম্পতির বিয়ে হয়। সপ্তাহখানেক আগে</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--        home pills-->
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card card-body">
+                        <ul class="nav nav-pills">
+                            <li><a href="#home" class="nav-link active" data-toggle="pill">Home</a></li>
+                            <li><a href="#about" class="nav-link " data-toggle="pill">About</a></li>
+                            <li><a href="#contact" class="nav-link " data-toggle="pill">Contact</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="home">
+                                <h1 class="text-center">This is Home page</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi in, obcaecati perferendis porro possimus quia reprehenderit sequi suscipit. Deleniti distinctio itaque provident! Asperiores autem fugit magni quae vitae. Eos, vitae?</p>
+                            </div>
+                            <div class="tab-pane fade show " id="about">
+                                <h1 class="text-center">This is About page</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid amet asperiores culpa eos est illum minus molestiae non perferendis perspiciatis rem tempora tempore tenetur ullam unde, ut vel voluptatibus.</p>
+                            </div>
+                            <div class="tab-pane fade show " id="contact">
+                                <h1 class="text-center">Contact us</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda est quisquam sed. Aperiam asperiores autem consectetur dolores doloribus eum exercitationem facere illo, impedit labore molestias odit perspiciatis provident qui voluptate?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--         question section-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionDev">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#username">What is your name?</button>
+                                </h5>
+                            </div>
+                            <div class="collapse show" id="username" data-parent="#accordionDev">
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, laboriosam veniam! At error eum eveniet excepturi fuga iste, labore laboriosam laborum modi quae quo tempora tenetur ut veniam voluptate voluptatibus?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#username1">What is your Email Address?</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="username1" data-parent="#accordionDev">
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, laboriosam veniam! At error eum eveniet excepturi fuga iste, labore laboriosam laborum modi quae quo tempora tenetur ut veniam voluptate voluptatibus?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#username2">What is your home Address?</button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="username2" data-parent="#accordionDev">
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, laboriosam veniam! At error eum eveniet excepturi fuga iste, labore laboriosam laborum modi quae quo tempora tenetur ut veniam voluptate voluptatibus?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
